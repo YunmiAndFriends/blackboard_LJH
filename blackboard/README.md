@@ -8,8 +8,12 @@
 - 예시 : `const onChangeText = (e)=>{
           setText(e.target.value)
          };`
+         
+         `<input id='textBox' onChange={onChangeText} placeholder='입력해주세요' />`
+- 
 
 
 ## 몰랐던 내용(css)
 - `display: flex;` 작성 후
-- `align-items: center;` 등의 코드 사용
+- `align-items: center;` 등의 코드 사용(가운데로 정렬)
+- `flex-direction: column;` 으로 위에서 아래로 정렬(`flex-direction: row;` 가 기본값[좌 -> 우])
